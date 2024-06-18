@@ -34,13 +34,13 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/golfer.png',
     title: 'For Players',
     subtitle:
         'Immersive experiences providing an opportunity for Play To Earn IRL',
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: '/courses.png',
     title: 'For Courses',
     subtitle:
         'Gain a deeper understanding of your patrons and their needs through zero-party and first party data',
@@ -72,17 +72,21 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    link: ''
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    link: ''
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    link: ''
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+    link: ''
   },
 ];

@@ -21,7 +21,7 @@ const GetStarted = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="https://video-private-assets.canva.com/VAGIPY9QXc0/v/5c62e7ab13.gif?exp=1718572980000&cf-ck=ncHvSHGGSL-sUr1dwNPSMCR6nl6w0jpeD2MpCVNbMns&cf-sig=awjLAjFalheqVW93-_zkjO5w8zEFPw0ZG59xSxQ0JyE&cf-sig-kid=CO7cCjZ_YiI=&sig=1y914Rc4lkIinrCl-heCYhui8tY_mLsuy5cV0nlHSJE&sig-kid=GzFgFdhXD-Q="
+          src="/jacket.gif"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
