@@ -23,7 +23,7 @@ const About = () => (
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
         <span className="font-extrabold text-white">Hackers & Hooligans</span> is a technology company aimed at disrupting marketing and customer engagement through 
-         {' '}
+        {' '}
         <span className="font-extrabold text-white">
           tech-enabled wearables
         </span>{' '}

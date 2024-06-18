@@ -8,9 +8,7 @@ import { staggerContainer } from '../utils/motion';
 import { InsightCard, TitleText, TypingText } from '../components';
 
 const Insights = () => (
-  <section className={`${styles.paddings} relative z-10`}>
-    
-  </section>
+  <section className={`${styles.paddings} relative z-10`} />
 );
 
 export default Insights;

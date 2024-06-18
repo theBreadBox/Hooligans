@@ -29,17 +29,17 @@ const Feedback = () => (
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-        • DTG (direct-to-golfer)
-        <br />
-        • Enhanced On/Off-Course Games
-        <br />
-        • Unlocks / Limited Edition Items
-        <br />
-        • Leaderboards
-        <br />
-        • Hyper Personalized Experiential Rewards
-        <br />
-        • Membership Engagement Tracking
+          • DTG (direct-to-golfer)
+          <br />
+          • Enhanced On/Off-Course Games
+          <br />
+          • Unlocks / Limited Edition Items
+          <br />
+          • Leaderboards
+          <br />
+          • Hyper Personalized Experiential Rewards
+          <br />
+          • Membership Engagement Tracking
         </p>
       </motion.div>
 
@@ -56,9 +56,7 @@ const Feedback = () => (
         <motion.div
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[3%]"
-        >
-
-        </motion.div>
+        />
       </motion.div>
     </motion.div>
   </section>

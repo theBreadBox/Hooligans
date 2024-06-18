@@ -32,16 +32,15 @@ const Hero = () => (
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
-        
 
         <iframe
           src="https://www.youtube.com/embed/PM2NocuEihw?autoplay=1&loop=1&playlist=PM2NocuEihw&mute=0&controls=0"
           alt="hero_cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[100px] z-10 relative pt-4"
-          frameborder="1"
+          frameBorder="1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-         />
+        />
 
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
