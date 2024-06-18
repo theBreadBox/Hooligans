@@ -32,8 +32,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
             alt="headset"
             className="w-1/2 h-1/2 object-contain"
           />
-        </div>
-        
+        </div> 
         <h2 className="mt-[34px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
