@@ -5,6 +5,8 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
+    'next', 
+    'next/core-web-vitals',
     'airbnb',
     'plugin:@next/next/recommended',
   ],
