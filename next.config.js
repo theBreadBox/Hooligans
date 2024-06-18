@@ -3,9 +3,7 @@ const nextConfig = {
   experimental: {
     appDir: false,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+ 
 
 };
 
