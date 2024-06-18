@@ -22,7 +22,7 @@ const Hero = () => (
           <img
             src="/NameLogo.png"
             alt="hero_cover"
-            className="w-full sm:h-[100px] h-[100px] object-fit rounded-tl-[100px] z-10 relative pb-3"
+            className="w-full sm:h-[100px] h-[100px] object-fit z-10 relative pb-3"
           />
         </motion.div>
       </div>
@@ -33,7 +33,7 @@ const Hero = () => (
       >
         <iframe
           src="https://www.youtube.com/embed/PM2NocuEihw?autoplay=1&loop=1&playlist=PM2NocuEihw&mute=0&controls=0"
-          className="w-full sm:h-[500px] h-[200px] object-cover rounded-tl-[100px] z-10 relative pt-4"
+          className="w-full sm:h-[500px] h-[200px] object-cover rounded-tl-[50px] z-10 relative pt-4"
           frameBorder="1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
