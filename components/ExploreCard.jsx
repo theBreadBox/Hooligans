@@ -30,7 +30,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         // eslint-disable-next-line react/jsx-no-comment-textnodes
         >
-          // eslint-disable-next-line @next/next/no-img-element
+          
           <img
             src="/logoOne.png"
             alt="headset"
