@@ -23,6 +23,8 @@ const Navbar = () => (
         className="w-[100px] h-[100px] object-contain "
       />
     </div>
+
+    
   </motion.nav>
 );
 
