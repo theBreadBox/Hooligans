@@ -15,21 +15,7 @@ const Footer = () => (
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-      <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Sign up for early access
-        </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/logoOne.png"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
-            Sign-up
-          </span>
-        </button>
-      </div>
+      
 
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
@@ -44,12 +30,14 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
+              <a key={social.name} href={social.link} target="_blank" rel="noopener noreferrer">
               <img
                 key={social.name}
                 src={social.url}
                 alt={social.name}
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
               />
+              </a>
             ))}
           </div>
         </div>

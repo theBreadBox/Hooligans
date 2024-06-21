@@ -20,7 +20,7 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| What's In The Bag" textStyles="text-center" />
+        <TypingText title="What's In The Bag" textStyles="text-center" />
         <TitleText
           title={<>Apparel with nfc technology connecting players to long drive engagement, loyalty, and advocacy. <br className="md:block hidden" /></>}
           textStyles="text-center"

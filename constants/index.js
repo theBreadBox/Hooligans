@@ -72,21 +72,21 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: '',
+    link: 'https://x.com/hacksnhooligans',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: '',
+    link: 'https://www.linkedin.com/company/hacksnhooligans',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: '',
+    link: 'https://www.instagram.com/hackersandhooligans',
   },
   {
-    name: 'facebook',
-    url: '/facebook.svg',
-    link: '',
+    name: 'tiktok',
+    url: '/tiktok.svg',
+    link: 'https://www.tiktok.com/@hacksnhooligans',
   },
 ];
